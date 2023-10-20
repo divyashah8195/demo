@@ -39,6 +39,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>3.6.3</version>
+                     <configuration>
+                  <outputDirectory>my-target-dir</outputDirectory>
+                    </configuration>
 			</plugin>
 		</plugins>
 	</build>
