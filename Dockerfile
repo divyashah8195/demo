@@ -1,7 +1,5 @@
 FROM openjdk:17
 
-COPY target/demo.jar /usr/app/
+COPY target/demo.jar demo.jar
 
-WORKDIR /usr/app/
-
-ENTRYPOINT ["java", "-jar", "demo.jar"]
+ENTRYPOINT ["java", "-jar", "/demo.jar"]
