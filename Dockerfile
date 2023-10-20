@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY target/demo.jar /usr/app
+COPY demo/target/demo.jar /
 
 WORKDIR /usr/app/
 
